@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         
         if userIsTyping {
             // Corner case 00, user typing multiple leading zere 000 -> 0
-            if textCurrentlyInDisplay == "0" && digit == "0" {
+            if (textCurrentlyInDisplay == "0" && digit == "0") || textCurrentlyInDisplay == "0" {
                 display.text = digit
             }
             else {
