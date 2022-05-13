@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8F643CAB282DB2BA001D0CB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CAA282DB2BA001D0CB7 /* README.md */; };
+		8F643CC0282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CBB282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_4.png */; };
+		8F643CC1282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CBC282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_5.png */; };
+		8F643CC2282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CBD282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_2.png */; };
+		8F643CC3282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CBE282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_3.png */; };
+		8F643CC4282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F643CBF282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_1.png */; };
 		8FA95EE5277185F400AC385D /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA95EE4277185F400AC385D /* CalculatorBrain.swift */; };
 		8FEC6FE0275EB4B4000E6BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC6FDF275EB4B4000E6BF4 /* AppDelegate.swift */; };
 		8FEC6FE2275EB4B4000E6BF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC6FE1275EB4B4000E6BF4 /* SceneDelegate.swift */; };
@@ -19,6 +24,11 @@
 
 /* Begin PBXFileReference section */
 		8F643CAA282DB2BA001D0CB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F643CBB282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot_iPad_Pro_4.png; sourceTree = "<group>"; };
+		8F643CBC282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot_iPad_Pro_5.png; sourceTree = "<group>"; };
+		8F643CBD282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot_iPhone_12Pro_2.png; sourceTree = "<group>"; };
+		8F643CBE282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot_iPhone_12Pro_3.png; sourceTree = "<group>"; };
+		8F643CBF282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot_iPhone_12Pro_1.png; sourceTree = "<group>"; };
 		8FA95EE4277185F400AC385D /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		8FEC6FDC275EB4B4000E6BF4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEC6FDF275EB4B4000E6BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F643CBA282DFFD0001D0CB7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				8F643CBB282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_4.png */,
+				8F643CBC282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_5.png */,
+				8F643CBD282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_2.png */,
+				8F643CBE282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_3.png */,
+				8F643CBF282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		8FEC6FD3275EB4B4000E6BF4 = {
 			isa = PBXGroup;
 			children = (
 				8F643CAA282DB2BA001D0CB7 /* README.md */,
+				8F643CBA282DFFD0001D0CB7 /* Screenshots */,
 				8FEC6FDE275EB4B4000E6BF4 /* Calculator */,
 				8FEC6FDD275EB4B4000E6BF4 /* Products */,
 			);
@@ -130,10 +153,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F643CC2282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_2.png in Resources */,
 				8FEC6FEC275EB4B8000E6BF4 /* LaunchScreen.storyboard in Resources */,
 				8FEC6FE9275EB4B8000E6BF4 /* Assets.xcassets in Resources */,
 				8F643CAB282DB2BA001D0CB7 /* README.md in Resources */,
 				8FEC6FE7275EB4B4000E6BF4 /* Main.storyboard in Resources */,
+				8F643CC1282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_5.png in Resources */,
+				8F643CC3282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_3.png in Resources */,
+				8F643CC0282DFFD0001D0CB7 /* SimulatorScreenShot_iPad_Pro_4.png in Resources */,
+				8F643CC4282DFFD0001D0CB7 /* SimulatorScreenShot_iPhone_12Pro_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
